@@ -202,8 +202,8 @@
 >
 > ```python
 > if True:
->     print("True")
->     
+> 	print("True")
+> 
 > >>>True    
 > ```
 >
@@ -214,7 +214,7 @@
 > b=1
 > #如果a=b就打印a=b
 > if a==b:
->     print("a=b")
+> 	print("a=b")
 > 
 > >>>a=b    
 > ```
@@ -226,21 +226,111 @@
 > b=1
 > #如果a=b就打印a=b
 > if a==b:
->     print("a=b")
-> #if里面的运行结束打印if finish
-> print("if finish")
->     
+>  print("a=b")
+>  #if里面的运行结束打印if finish
+>  print("if finish")
+> 
 > >>>a=b
 > >>>if finish
 > ```
 >
 > if判断的条件为假则继续
 >
-> 以下为流程图:
+> 以下为if的流程图:
 >
-> <img src=".\img\if.png" alt="if" style="zoom:100%;" />
+> ````mermaid
+> graph TB
+> start(开始)-->if{条件}
+> if-->yes(True)
+> yes-->yes_num[条件代码]
+> if-->no(False)
+> 
+> yes_num-->if_finid(if后的代码)
+> no-->if_finid
+> ````
+>
+> - ## if-else
+>
+>   以下为if-else的流程图:
+>
+>   ```mermaid
+>   graph TB
+>   start(开始)-->if{条件}
+>   if-->yes(True)
+>   yes-->yes_num[条件代码]
+>   if-->no(False)
+>   no-->else((else))
+>   
+>   yes_num-->if_finid(if后的代码)
+>   else-->if_fini_else(else中的代码)
+>   if_fini_else-->if_finid
+>   ```
 >
 > 
+>
+>   ```python
+> a=1
+> b=2
+> 
+> if a==b :
+> 	print("a=b")
+> #这里的else等于if a!=b:
+> else:
+> 	#!=就是不等于
+> 	print("a!=b")
+> 
+> >>>a!=b
+>   ```
+> - ## if-elif
+>
+>   以下为if-elif的流程图:
+>
+>   ```mermaid
+>   graph TB
+>   start(开始)-->if{条件}
+>   if-->yes(True)
+>   yes-->yes_num[条件代码]
+>   if-->no(False)
+>   no-->elif{{elif条件}}
+>   elif-->true1(True)
+>   elif-->false1(False)
+>
+>   true1-->elif带啊吗(elif代码)
+>   false1-->elif1(elif条件2)
+>   elif1-->true2(True)
+>   true2-->elif5(elif2代码)
+>   elif1-->false2(False)
+>   false2-->num(....)
+>
+>   yes_num-->if_finid(if后的代码)
+>   ```
+>
+>   ```python
+>     a=1
+>     b=2
+>   if a==b :
+>   	print("a=b")
+>   elif b>a:
+>   	print("b>a")
+>   elif b<a:
+>       print("b<a")
+>
+>   ```
+>
+> - ## for
+>
+> 就是我们常说的遍历
+>
+> `for` 循环用于迭代序列(即列表，元组，字典，集合或字符串)
+>
+> 这与其他编程语言中的 `for` 关键字不太相似，而是更像其他面向对象编程语言中的迭代器方法。
+>
+> 通过使用 `for` 循环，我们可以为列表、元组、集合中的每个项目等执行一组语句
+>
+> 格式:for in 遍历对象
+>
+> 
+>
 
 ## 面向对象
 
@@ -272,12 +362,14 @@
 >     def printhello(self):
 >     	print("hello world")
 > #实列化对象
-> p=Test()
+> p=Tes()
 > #执行类里面的函数
 > p.printhello()
 > 
 >>>>hello world
 > ```
 >
-> <font color="Blue">在类中定义__init__函数(构造函数),在执行p=People()是会执行__init__函数里的代码(实列化对象)</font>
+> 在类中定义\_\_init\_\_函数(构造函数),在执行p=People()是会执行\_\_init\_\_函数里的代码(实列化对象)
+
+
 
