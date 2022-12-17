@@ -238,25 +238,7 @@
 >
 > 以下为流程图:
 >
-> ````mermaid
-> 
-> gitGraph:
-> options
-> {
->     "nodeSpacing": 150,
->     "nodeRadius": 10
-> }
-> end
-> commit
-> branch newbranch
-> checkout newbranch
-> commit
-> commit
-> checkout master
-> commit
-> commit
-> merge newbranch
-> ````
+> <img src="C:\Users\59957\Desktop\Github\Teaching\Teaching\img\if.png" alt="if" style="zoom:100%;" />
 >
 > 
 
