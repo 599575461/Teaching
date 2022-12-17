@@ -93,7 +93,7 @@ Java几乎垄断安卓和web开发
 
 > [Java](https://www.java.com/zh-CN/)
 >
-> [C++]([https://cplusplus.com](https://cplusplus.com/))
+> [C++](https://cplusplus.com/)
 >
 > [Python](https://www.python.org/)
 
