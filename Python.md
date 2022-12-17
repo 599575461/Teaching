@@ -138,19 +138,19 @@
 >
 >   PyCharm是一种[Python](https://baike.baidu.com/item/Python/407313?fromModule=lemma_inlink) [IDE](https://baike.baidu.com/item/IDE/8232086?fromModule=lemma_inlink)（Integrated Development Environment，集成开发环境），带有一整套可以帮助用户在使用[Python](https://baike.baidu.com/item/Python/407313?fromModule=lemma_inlink)语言开发时提高其效率的工具，比如[调试](https://baike.baidu.com/item/调试/5852756?fromModule=lemma_inlink)、[语法高亮](https://baike.baidu.com/item/语法高亮/9686751?fromModule=lemma_inlink)、[项目管理](https://baike.baidu.com/item/项目管理/85389?fromModule=lemma_inlink)、代码跳转、智能提示、[自动完成](https://baike.baidu.com/item/自动完成/22748028?fromModule=lemma_inlink)、[单元测试](https://baike.baidu.com/item/单元测试/1917084?fromModule=lemma_inlink)、[版本控制](https://baike.baidu.com/item/版本控制/3311252?fromModule=lemma_inlink)。此外，该IDE提供了一些高级功能，以用于支持[Django](https://baike.baidu.com/item/Django/61531?fromModule=lemma_inlink)框架下的专业[Web](https://baike.baidu.com/item/Web/150564?fromModule=lemma_inlink)开发
 >
->   
+> 
 >
 >   PyCharm是最受Python程序员喜爱的Python编辑器,本人**推荐使用这个**
->   
+>
 >   但是专业版收费,具体信息去[官网](https://www.jetbrains.com/pycharm/)查看
->   
+>
 > - ## Visual Studio Code
 >
 >   Visual Studio Code（简称“VS Code”）是Microsoft在2015年4月30日[Build](https://baike.baidu.com/item/Build/15992854?fromModule=lemma_inlink)开发者大会上正式宣布一个运行于 [MacOS](https://baike.baidu.com/item/Mac OS X/470629?fromModule=lemma_inlink)、[Windows](https://baike.baidu.com/item/Windows?fromModule=lemma_inlink)和[ Linux](https://baike.baidu.com/item/ Linux/27050?fromModule=lemma_inlink) 之上的，针对于编写现代[Web](https://baike.baidu.com/item/Web/150564?fromModule=lemma_inlink)和[云应用](https://baike.baidu.com/item/云应用/476249?fromModule=lemma_inlink)的跨平台[源代码编辑器](https://baike.baidu.com/item/源代码编辑器/16273015?fromModule=lemma_inlink)可在桌面上运行，并且可用于[Windows](https://baike.baidu.com/item/Windows/165458?fromModule=lemma_inlink)，[macOS](https://baike.baidu.com/item/macOS/8654551?fromModule=lemma_inlink)和[Linux](https://baike.baidu.com/item/Linux/27050?fromModule=lemma_inlink)
 >
 >   它具有对[JavaScript](https://baike.baidu.com/item/JavaScript/321142?fromModule=lemma_inlink)，[TypeScript](https://baike.baidu.com/item/TypeScript/4314718?fromModule=lemma_inlink)和[Node.js](https://baike.baidu.com/item/Node.js/7567977?fromModule=lemma_inlink)的内置支持，并具有丰富的其他语言（例如[C++](https://baike.baidu.com/item/C%2B%2B/99272?fromModule=lemma_inlink)，[C＃](https://baike.baidu.com/item/C＃/195147?fromModule=lemma_inlink)，[Java](https://baike.baidu.com/item/Java/85979?fromModule=lemma_inlink)，[Python](https://baike.baidu.com/item/Python/407313?fromModule=lemma_inlink)，[PHP](https://baike.baidu.com/item/PHP/9337?fromModule=lemma_inlink)，[Go](https://baike.baidu.com/item/Go/953521?fromModule=lemma_inlink)）和运行时（例如[.NET](https://baike.baidu.com/item/.NET/156737?fromModule=lemma_inlink)和[Unity](https://baike.baidu.com/item/Unity/10793?fromModule=lemma_inlink)）扩展的[生态系统](https://baike.baidu.com/item/生态系统/457895?fromModule=lemma_inlink)
 >
->   
+> 
 >
 >   Visual Studio Code几乎可以写**任何编程语言**,当然用来写Python也是不错的
 >
@@ -164,7 +164,7 @@
 >
 >   Sublime Text具有漂亮的用户界面和强大的功能，例如代码缩略图，[Python](https://baike.baidu.com/item/Python?fromModule=lemma_inlink)的插件，代码段等。还可自定义键绑定，菜单和工具栏。Sublime Text 的主要功能包括：拼写检查，书签，完整的 [Python](https://baike.baidu.com/item/Python/407313?fromModule=lemma_inlink) API, 即时项目切换，多选择，多窗口等等。[Sublime](https://baike.baidu.com/item/Sublime/8130415?fromModule=lemma_inlink) Text 是一个跨平台的编辑器，同时支持Windows、[Linux](https://baike.baidu.com/item/Linux?fromModule=lemma_inlink)、[MacOS](https://baike.baidu.com/item/Mac OS X?fromModule=lemma_inlink)等操作系统
 >
->   
+> 
 >
 >   这是一款不错的Python开发工具,但与前两者相比个人感觉比不上
 >
@@ -193,3 +193,5 @@
 >   **双击安装包随后按照步骤来安装(照片是3.10.8的安装,给出的链接是3.9.2的,步骤都一样)**
 >
 > <img src=".\img\Install_python.png" alt="Install_python" style="zoom:80%;" /> 
+>
+> 等待安装成功,看见Successfully表示成功
