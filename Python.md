@@ -234,7 +234,22 @@
 > >>>if finish
 > ```
 >
-> if判断的条件为假则继续执行
+> if判断的条件为假则继续
+>
+> 以下为流程图:
+>
+> ````mermaid
+> graph TB
+> start(开始)-->if{条件}
+> if-->yes(True)
+> yes-->yes_num[条件代码]
+> if-->no(False)
+> 
+> yes_num-->if_finid(if后的代码)
+> no-->if_finid
+> ````
+>
+> 
 
 ## 面向对象
 
