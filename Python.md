@@ -81,10 +81,10 @@
 >   ```python
 >   def sum(a, b)
 >       print(a + b)
->                   
+>                     
 >   sum(3, 9)
 >   #调用函数时，按顺序传递参数，3 传给 a，9 传给 b
->                   
+>                     
 >   >>>12
 >   ```
 >
@@ -93,10 +93,10 @@
 >   ```python
 >   def sum(a, b)
 >       print(a + b)
->                   
+>                     
 >   sum(b = 3, a = 9)
 >   #调用函数时，按关键字传递参数，3 传给 b，9 传给 a
->                   
+>                     
 >   >>>12
 >   ```
 >
@@ -196,6 +196,46 @@
 >
 > 等待安装成功,看见**Successfully**表示成功安装
 
+## If,for语句
+
+> if就是判断是否为真,为真就执行if下的代码
+>
+> ```python
+> if True:
+>     print("True")
+>     
+> >>>True    
+> ```
+>
+> ==运行判断两个变量是否相等,相等返回True,不相等返回false
+>
+> ```python
+> a=1
+> b=1
+> #如果a=b就打印a=b
+> if a==b:
+>     print("a=b")
+> 
+> >>>a=b    
+> ```
+>
+> if里面的语句执行结束会执行if后面的
+>
+> ```python
+> a=1
+> b=1
+> #如果a=b就打印a=b
+> if a==b:
+>     print("a=b")
+> #if里面的运行结束打印if finish
+> print("if finish")
+>     
+> >>>a=b
+> >>>if finish
+> ```
+>
+> if判断的条件为假则继续执行
+
 ## 面向对象
 
 > **面向对象是高级编程语言的重点**
@@ -220,16 +260,19 @@
 > class Test():
 >     #创建一个类
 >     def __init__(self):
->       	pass
+>     	pass
 > 
 >     #创建一个在类里面的函数(方法)
 >     def printhello(self):
->       	print("hello world")
+>     	print("hello world")
 > #实列化对象
 > p=Tes()
 > #执行类里面的函数
 > p.printhello()
-> ```
 > 
->在类中定义\_\_init\_\_函数(构造函数),在执行p=People()是会执行\_\_init\_\_函数里的代码(实列化对象)
+>>>>hello world
+> ```
+>
+> 在类中定义\_\_init\_\_函数(构造函数),在执行p=People()是会执行\_\_init\_\_函数里的代码(实列化对象)
+
 
