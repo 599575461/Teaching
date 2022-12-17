@@ -81,10 +81,10 @@
 >   ```python
 >   def sum(a, b)
 >       print(a + b)
->     
+>       
 >   sum(3, 9)
 >   #调用函数时，按顺序传递参数，3 传给 a，9 传给 b
->     
+>       
 >   >>>12
 >   ```
 >
@@ -93,10 +93,10 @@
 >   ```python
 >   def sum(a, b)
 >       print(a + b)
->     
+>       
 >   sum(b = 3, a = 9)
 >   #调用函数时，按关键字传递参数，3 传给 b，9 传给 a
->     
+>       
 >   >>>12
 >   ```
 >
@@ -170,3 +170,26 @@
 >
 >   具体信息去[官网](https://www.sublimetext.com/)查看
 >
+> 具体使用哪个看个人需求,另外安装了工具还要装Python解释器
+>
+> - ## Python安装
+>
+>   下表复制Python官网**3.9.2**安装列表根据需求进行下载
+>
+>   一般如果你是Windows操作系统直接点最后一个
+>
+>   |                             版本                             | 操作系统 |
+>   | :----------------------------------------------------------: | :------: |
+>   | [压缩源码包](https://www.python.org/ftp/python/3.9.2/Python-3.9.2.tgz) |   源码   |
+>   | [XZ 压缩源压缩包](https://www.python.org/ftp/python/3.9.2/Python-3.9.2.tar.xz) |   源码   |
+>   | [macOS 64 位英特尔安装程序](https://www.python.org/ftp/python/3.9.2/python-3.9.2-macosx10.9.pkg) |   Mac    |
+>   | [macOS 64 位通用2 安装程序](https://www.python.org/ftp/python/3.9.2/python-3.9.2-macos11.pkg) |   Mac    |
+>   | [Windows 嵌入式程序包（32 位）](https://www.python.org/ftp/python/3.9.2/python-3.9.2-embed-win32.zip) | Windows  |
+>   | [Windows 嵌入式程序包（64 位）](https://www.python.org/ftp/python/3.9.2/python-3.9.2-embed-amd64.zip) | Windows  |
+>   | [Windows帮助文件](https://www.python.org/ftp/python/3.9.2/python392.chm) | Windows  |
+>   | [Windows安装程序（32 位）](https://www.python.org/ftp/python/3.9.2/python-3.9.2.exe) | Windows  |
+>   | [Windows安装程序（64 位）](https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe) | Windows  |
+>
+>   **双击安装包随后按照步骤来安装(照片是3.10.8的安装,给出的链接是3.9.2的,步骤都一样)**
+>
+> <img src=".\img\Install_python.png" alt="Install_python" style="zoom:80%;" /> 
