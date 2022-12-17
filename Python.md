@@ -238,7 +238,7 @@
 >
 > 以下为流程图:
 >
-> <img src="C:\Users\59957\Desktop\Github\Teaching\Teaching\img\if.png" alt="if" style="zoom:100%;" />
+> <img src=".\img\if.png" alt="if" style="zoom:100%;" />
 >
 > 
 
@@ -272,7 +272,7 @@
 >     def printhello(self):
 >     	print("hello world")
 > #实列化对象
-> p=Tes()
+> p=Test()
 > #执行类里面的函数
 > p.printhello()
 > 
