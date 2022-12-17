@@ -126,7 +126,7 @@
 >     > def booltest()
 >     >     return True
 >     > 
->     > print(location())
+>     > print(booltest())
 >     > #返回值也可以是bool类型
 >     > 
 >     > >>>True
