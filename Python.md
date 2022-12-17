@@ -162,7 +162,7 @@
 >
 >   Sublime Text 是一个文本[编辑器](https://baike.baidu.com/item/编辑器/9067697?fromModule=lemma_inlink)（收费[软件](https://baike.baidu.com/item/软件/12053?fromModule=lemma_inlink)，可以无限期试用），同时也是一个先进的[代码](https://baike.baidu.com/item/代码/86048?fromModule=lemma_inlink)编辑器。Sublime Text是由程序员Jon Skinner于2008年1月份所开发出来，它最初被设计为一个具有丰富扩展功能的[Vim](https://baike.baidu.com/item/Vim?fromModule=lemma_inlink)
 >
->   Sublime Text具有漂亮的用户界面和强大的功能，例如代码缩略图，[Python](https://baike.baidu.com/item/Python?fromModule=lemma_inlink)的插件，代码段等。还可自定义键绑定，菜单和工具栏。Sublime Text 的主要功能包括：拼写检查，书签，完整的 [Python](https://baike.baidu.com/item/Python/407313?fromModule=lemma_inlink) API, 即时项目切换，多选择，多窗口等等。[Sublime](https://baike.baidu.com/item/Sublime/8130415?fromModule=lemma_inlink) Text 是一个跨平台的编辑器，同时支持Windows、[Linux](https://baike.baidu.com/item/Linux?fromModule=lemma_inlink)、[Mac OS X](https://baike.baidu.com/item/Mac OS X?fromModule=lemma_inlink)等操作系统
+>   Sublime Text具有漂亮的用户界面和强大的功能，例如代码缩略图，[Python](https://baike.baidu.com/item/Python?fromModule=lemma_inlink)的插件，代码段等。还可自定义键绑定，菜单和工具栏。Sublime Text 的主要功能包括：拼写检查，书签，完整的 [Python](https://baike.baidu.com/item/Python/407313?fromModule=lemma_inlink) API, 即时项目切换，多选择，多窗口等等。[Sublime](https://baike.baidu.com/item/Sublime/8130415?fromModule=lemma_inlink) Text 是一个跨平台的编辑器，同时支持Windows、[Linux](https://baike.baidu.com/item/Linux?fromModule=lemma_inlink)、[MacOS](https://baike.baidu.com/item/Mac OS X?fromModule=lemma_inlink)等操作系统
 >
 >   
 >
